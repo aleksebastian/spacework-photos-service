@@ -4,7 +4,21 @@
   "description": "Backend system design project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "analyze": "source-map-explorer client/dist/*.js",
+    "seed": "node database/seed.js",
+    "seed:s3": "node deploy/upload-photos.js",
+    "start": "npx webpack --watch --mode development",
+    "build": "npx webpack --mode production",
+    "server": "node server/index.js",
+    "server:dev": "nodemon server/index.js",
+    "test": "jest --testPathPattern=test --runInBand",
+    "postgresTest": "node sdc-db/sql/index.js",
+    "couchdbTest": "node sdc-db/nosql/index.js",
+    "seed:cloudinary": "node sdc-deploy/uploadPhotos.js",
+    "sdc-seed": "node sdc-db/nosql/seed/seeder.js",
+    "sdc-server": "node sdc-server/index.js",
+    "sdc-server:dev": "nodemon sdc-server/index.js",
+    "sdc-server:test": "node -r newrelic sdc-server/index.js"
   },
   "repository": {
     "type": "git",
