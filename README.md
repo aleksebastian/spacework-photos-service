@@ -13,7 +13,7 @@ I imported this project to my github repos from my original project in a github 
 
 ## Motivation
 
-To design a backend system that supports millions of records and that is capable of handling a large amount of request per second with low latenacy and a minimal amount of errors.
+To design a backend system that supports millions of records and that is capable of handling a large amount of request per second with low latency and a minimal amount of errors.
 
 ## Constraints
 
