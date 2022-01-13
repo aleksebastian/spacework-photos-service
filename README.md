@@ -1,4 +1,4 @@
-# Spacework Backend System Design
+# Spacework Backend System
 
 I imported this project to my github repos from my original project in a github organization for code cleanup and visibility purposes. The original project with the original commit history can be found [here](https://github.com/sdc-wework/photos-service).
 
