@@ -1,5 +1,7 @@
 # Spacework Backend System Design
 
+I imported this project to my github repos from my original project in a github organization for code cleanup and visibility purposes. The original project with the original commit history can be found [here](https://github.com/sdc-wework/photos-service).
+
 ## Table of Contents
 
 1. [Motivation and Constraints](#motivation)
@@ -7,7 +9,7 @@
 1. [Horizontal scaling results](#results)
 1. [Design advantages and possible enhancements](#design-advantages)
 1. [REST API Reference](#rest-api)
-   1. [Endpoints and HTTP request methods](#endpoints)
+   1. [Endpoints and available HTTP request methods](#endpoints)
 
 ## Motivation
 
